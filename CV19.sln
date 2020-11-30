@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CV19", "CV19\CV19.csproj", "{B8037156-3C07-4835-A2D7-D5C9D2C82CBE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D8FAC360-C93E-4E8F-920F-2BEE64FD3117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CV19Console", "Tests\CV19Console\CV19Console.csproj", "{3D8DB50F-FF9B-4432-9158-71D064C93B9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{B8037156-3C07-4835-A2D7-D5C9D2C82CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8037156-3C07-4835-A2D7-D5C9D2C82CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8037156-3C07-4835-A2D7-D5C9D2C82CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8DB50F-FF9B-4432-9158-71D064C93B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8DB50F-FF9B-4432-9158-71D064C93B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8DB50F-FF9B-4432-9158-71D064C93B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8DB50F-FF9B-4432-9158-71D064C93B9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D8DB50F-FF9B-4432-9158-71D064C93B9D} = {D8FAC360-C93E-4E8F-920F-2BEE64FD3117}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A01AABD8-B2F8-4BD7-A163-D439527BBAF1}
